@@ -1,0 +1,51 @@
+.fixNav{
+  width: 100%;
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  z-index: 100000000;
+}
+.cart-body{
+	z-index:999;
+}
+.inner-header{
+	background-color: #ffffff
+}
+.inner-title,.beta-breadcrumb, .beta-breadcrumb a{
+	color: black
+}
+.main-menu>ul.l-inline> li> a{
+	color: #fff;
+	padding: 10px 35px
+}
+
+.add1{
+	margin-top: 30px;
+}
+.add2{
+	margin-top:10px;
+}
+
+.btn-top {
+    background-image: url(../images/gotop.png);
+    background-repeat: no-repeat;
+    border: medium none;
+    bottom: 200px;
+    cursor: pointer;
+    display: none;
+    height: 50px;
+    outline: medium none;
+    padding: 0;
+    position: fixed;
+    right: 20px;
+    width: 50px;
+    z-index: 9999;
+}
+
+.cart:hover .cart-body {
+    display: block;
+}
+.social a button:hover{
+  color: white;
+}
+.btn-lg{font-size: 16px;}
